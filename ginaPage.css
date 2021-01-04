@@ -1,0 +1,29 @@
+.opening {
+    text-align: center;
+    color: burlywood;
+    text-shadow: black;
+}
+body {
+    font-weight:400;
+    background-image: url("markus-spiske-ieJUV-Mrn3g-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(235, 102, 79);
+    background-size: 1200px 1000px;
+} 
+.card-body {
+    background-color:burlywood;
+}
+.list-group {
+    background-color:rgb(242, 224, 200);
+}
+.card-title {
+    font-size: large;
+}
+.navbar {
+    background-color:rgb(162, 36, 14);
+    text-align:start;
+    color: burlywood;
+}
+.color {
+    color: burlywood;
+}
