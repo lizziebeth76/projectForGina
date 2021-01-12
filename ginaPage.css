@@ -1,29 +1,39 @@
 .opening {
     text-align: center;
-    color: burlywood;
+    color: rgb(222, 138, 28);
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.welcome {
+    text-align: center;
+    color: rgb(222, 138, 28);
     text-shadow: black;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 body {
+    font-family: 'Times New Roman', Times, serif;
     font-weight:400;
-    background-image: url("markus-spiske-ieJUV-Mrn3g-unsplash.jpg");
+    background-image: url(charles-deluvio-PqsImnjuElM-unsplash.jpg);
     background-repeat: no-repeat;
-    background-color: rgb(235, 102, 79);
-    background-size: 1200px 1000px;
+    background-size: cover;
 } 
 .card-body {
-    background-color:burlywood;
+    background-color: burlywood;
 }
 .list-group {
-    background-color:rgb(242, 224, 200);
+    background-color: rgb(227, 206, 178);
+}
+.list-group-item {
+    background-color: rgb(225, 212, 194);
 }
 .card-title {
     font-size: large;
 }
-.navbar {
-    background-color:rgb(162, 36, 14);
-    text-align:start;
-    color: burlywood;
-}
-.color {
-    color: burlywood;
+.navbar { 
+    font-weight: bolder;
+    text-align:justify;
+    /* background-color:rgb(222, 138, 28); */
 }
