@@ -1,3 +1,10 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:400;
+    background-image: url(charles-deluvio-PqsImnjuElM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
 .opening {
     text-align: center;
     color: rgb(222, 138, 28);
@@ -12,22 +19,27 @@
     text-shadow: 1px 1px 2px black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    margin-left: 4.25cm;
+    margin-right: 4.25cm;
 }
-body {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:400;
-    background-image: url(charles-deluvio-PqsImnjuElM-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+#left {
+    text-align: left;
+    margin-left: 1cm;
+}
+/* .pricingdetail {
+    font-size: large;
+} */
+#pizza {
+    background-color: rgb(184, 60, 38);
+}
 .card-body {
-    background-color: burlywood;
+    background-color: rgb(245, 186, 113);
 }
 .list-group {
-    background-color: rgb(227, 206, 178);
+    background-color:  rgb(245, 186, 113);
 }
 .list-group-item {
-    background-color: rgb(225, 212, 194);
+    background-color: rgb(244, 203, 154);
 }
 .card-title {
     font-size: large;
@@ -35,5 +47,7 @@ body {
 .navbar { 
     font-weight: bolder;
     text-align:justify;
-    /* background-color:rgb(222, 138, 28); */
+    font-size: .5cm;
+    background-color:rgb(222, 138, 28);
+    /* font-optical-sizing: .5cm; */
 }
